@@ -5,6 +5,7 @@
 #include "Components/StaticMeshComponent.h"
 
 
+
 // Sets default values
 ASTrackerBot::ASTrackerBot()
 {
@@ -23,6 +24,8 @@ void ASTrackerBot::BeginPlay()
 	Super::BeginPlay();
 	
 }
+
+
 
 // Called every frame
 void ASTrackerBot::Tick(float DeltaTime)

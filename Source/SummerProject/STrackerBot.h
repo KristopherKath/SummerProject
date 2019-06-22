@@ -6,6 +6,8 @@
 #include "GameFramework/Pawn.h"
 #include "STrackerBot.generated.h"
 
+
+
 UCLASS()
 class SUMMERPROJECT_API ASTrackerBot : public APawn
 {
@@ -21,6 +23,8 @@ protected:
 
 	UPROPERTY(VisibleDefaultsOnly, Category = "Components")
 	UStaticMeshComponent* MeshComp;
+
+	FVector GetNextPathPoint();
 
 public:	
 	// Called every frame
